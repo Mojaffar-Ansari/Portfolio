@@ -922,7 +922,7 @@ margin-bottom: var(--mb-1);
   border: none;
 }
 
-.reset_button{
+.form_reset{
   border: none;
   height: 100%;
 }
@@ -1085,9 +1085,15 @@ margin-bottom: var(--mb-1);
     margin-bottom: var(--mb-0-25);
   }
 
-  .reset_button{
-    height: 100%;
-    width: 90px;
+  .submit_div{
+    display: flex;
+    justify-self: center;
+  }
+  .form_submit{
+    margin-right: 5px;
+  }
+  .form_reset{
+    margin-left: 5px;
   }
 }
 
